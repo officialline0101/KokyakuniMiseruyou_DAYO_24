@@ -175,12 +175,13 @@
             padding: 30px 15px; margin: 30px 0 20px 0;
             border: 1px solid rgba(255,255,255,0.1); text-align: center;
         }
-        #male .highlight-background { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop'); }
-        #female .highlight-background { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=1000&auto=format&fit=crop'); }
-        #eyebrows .highlight-background { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=1000&auto=format&fit=crop'); }
-        #Matsugepama .highlight-background { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=1000&auto=format&fit=crop'); }
-        #oilmassage .highlight-background { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?q=80&w=1000&auto=format&fit=crop'); }
-        
+        #male .highlight-background { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://www.dropbox.com/scl/fi/g90srz9pds3srrq9hb5rj/.jpg?rlkey=9oabhkn5rnivtm5njquoy17ax&st=9odyiunh&raw=1'); }
+        #female .highlight-background { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://www.dropbox.com/scl/fi/tpyumvss39pnbil3sboag/.jpg?rlkey=0kd016jtxr49n3qg135tj5ndu&st=wpycxdvr&raw=1'); }
+        #eyebrows .highlight-background { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://www.dropbox.com/scl/fi/h9vrgofggvq4hscmucxoe/.jpg?rlkey=v6u7rxtdazzcggf44mlv1jp6a&st=45ze5bmq&raw=1'); }
+        #Matsugepama .highlight-background { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://www.dropbox.com/scl/fi/csia0u8wih82rc3udw1d8/.jpg?rlkey=kchfbafv5oq34yf1oazzgdvvy&st=xu2m2nov&raw=1'); }
+        #oilmassage .highlight-background { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://www.dropbox.com/scl/fi/8c8t0ocafsxzwtey82fli/.jpg?rlkey=1mu0wcpzi8tbxwyhjieg8zcjw&st=ydsy5l2z&raw=1'); }
+        #monitor .highlight-background { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://www.dropbox.com/scl/fi/k2ubh761skmmelpsvedn2/.jpg?rlkey=b4ckgpdcv15dwn9nhgd3t9688&st=8zy16tqn&raw=1'); }
+
         .highlight-text {
             font-family: var(--font-en); font-size: 20px; letter-spacing: 0.15em;
             border-top: 1px solid rgba(255,255,255,0.5); border-bottom: 1px solid rgba(255,255,255,0.5);
@@ -319,13 +320,22 @@
         .menu-section { display: none; opacity: 0; transition: opacity 0.5s ease; }
         .menu-section.active { display: block; opacity: 1; }
 
+.salon-name {
+    text-transform: lowercase;
+}
+
     </style>
 </head>
 
 <body>
 
     <div class="container">
-        <h1>taki salon<br><span style="font-size: 0.5em; letter-spacing: 0.1em; display:block; margin-top:10px;">RESERVATION FORM</span></h1>
+        <h1>
+  <span class="salon-name">taki salon</span><br>
+  <span style="font-size: 0.5em; letter-spacing: 0.1em; display:block; margin-top:10px;">
+    RESERVATION FORM
+  </span>
+</h1>
         
         <div class="label">Client Name</div>
         <div style="text-align:center; font-size:12px; margin-bottom:10px; color:#aaa;">お客様名<span class="required">必須</span></div>
