@@ -808,6 +808,9 @@
                     }
                     
 // 曜日ごとの不可時間設定
+                    // 日曜日(0): 終日NG
+                    if(day.getDay() === 0) isOK = false;
+
                     // 月曜日(1): 14:00以降NG
                     if(day.getDay() === 1 && slotStart.getHours() >= 14) isOK = false;
                     
@@ -875,3 +878,4 @@
     </script>
 </body>
 </html>
+
